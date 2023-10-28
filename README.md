@@ -48,6 +48,7 @@ from datetime import timedelta
 from datetime import datetime
 import random
 from random import randrange
+import matplotlib.pyplot as plt
 
 # Define your parameters
 price_5_percentile = 10  # Example values
@@ -85,6 +86,11 @@ test_data = create_test_data(price_5_percentile, price_95_percentile, quantity_5
 
 # Now you can use this data for your machine learning experiments.
 ```
+## The Result
+![Distribution](Test%20data%20distribution.png)
+
+The distribution shown in the image closely resembles real-world data, making it a valuable asset for testing and validating predictive models. Its resemblance to actual data helps ensure unbiased testing and more reliable results.
+
 
 ## Author
 [Innesse](https://github.com/Innesse) 
