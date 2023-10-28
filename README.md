@@ -60,6 +60,7 @@ n_customers = 50
 elasticity = [0.2, 0.5, 1.0]
 start_date = '01/01/2023'
 end_date = '12/31/2023'
+```
 
 You can specify different brands, currencies, countries, and markets using the `data_brands` parameter. This allows you to test the impact of these factors on your machine learning predictions.
 
